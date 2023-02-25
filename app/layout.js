@@ -1,4 +1,6 @@
 import '../styles/globals.css';
+import '../styles/tailwind.css';
+import '../styles/tooltip.css';
 
 const RootLayout = ({ children }) => (
   <html lang="en">

@@ -4,16 +4,19 @@ import Explore from './Explore';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import World from './World';
-import Insights from './Insights';
-import Feedback from './Feedback';
+import Drinks from './Drinks';
+import Team from './Team'
+import Wohin from './Wohin';
+import Philosophie from './Philosophie';
 
 export {
   Hero,
   About,
-  Explore,
+  Philosophie,
   GetStarted,
   WhatsNew,
   World,
-  Insights,
-  Feedback,
+  Team,
+  Drinks,
+  Wohin,
 };

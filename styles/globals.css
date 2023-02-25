@@ -6,9 +6,61 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: "Architects Daughter", sans-serif;
   scroll-behavior: smooth;
 }
+
+.headingA {
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #ffffff;
+  font-family: "Bowlby One SC";
+}
+
+.headingB {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffcc00;
+  font-family: "Architects Daughter";
+}
+
+.headingC {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orange;
+  font-family: "Architects Daughter";
+}
+
+.headingD {
+  -webkit-text-stroke-width: 0.66px;
+  -webkit-text-stroke-color: #595959;
+  font-family: "Architects Daughter";
+  font-weight: extrabold;
+}
+
+.headingE {
+  -webkit-text-stroke-width: 3.99px;
+  -webkit-text-stroke-color: #595959;
+  font-family: "Bowlby One SC";
+  font-weight: extrabold;
+}
+
+.headingF {
+  -webkit-text-stroke-width: 2.9px;
+  -webkit-text-stroke-color: #fffffc;
+  font-family: "Bowlby One SC";
+  font-weight: extrabold;
+}
+
+.shape-lighthouse {
+  shape-margin: 80px;
+  float: left;
+  shape-outside: url("/lighthouse3.png");
+  shape-image-threshold: 0.6;
+}
+
+.portraitMick {
+  shape-margin: 80px;
+  shape-outside: url("/portraitmick.png");
+  shape-image-threshold: 0.6;
+  }
 
 .gradient-01 {
   background-image: linear-gradient(

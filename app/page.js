@@ -1,23 +1,29 @@
-import { Footer, Navbar } from "../components";
+import { Footer, MenuBar, InfoBar } from "../components";
+import Header from "./header";
 import {
   About,
-  Explore,
-  Feedback,
+  Philosophie,
+  Wohin,
   GetStarted,
   Hero,
-  Insights,
+  Drinks,
+  Team,
   WhatsNew,
   World,
 } from "../sections";
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
-    <Navbar />
+    <Header/>
+    <MenuBar />
+    <InfoBar/>
+    
     <Hero />
     <div className="relative">
       <About />
       <div className="gradient-03 z-0"></div>
-      <Explore />
+      
+      <Philosophie/>
     </div>
     <div className="relative">
       <GetStarted />
@@ -28,9 +34,10 @@ const Page = () => (
     <World />
 
     <div className="relative">
-      <Insights />
+      <Drinks />
+      <Team/>
       <div className="gradient-04 z-0"></div>
-      <Feedback />
+      <Wohin />
     </div>
     <Footer />
   </div>

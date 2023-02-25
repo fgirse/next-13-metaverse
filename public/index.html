@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<!--[if IE ]>    <html lang="en" class="ie"> <![endif]--> 
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+	<head>
+
+		<!-- METAS -->
+		<meta charset="utf-8">
+		<title>jQuery Responsive Timeline Slider by pezflash</title>
+		<meta name="description" content="jQuery Plugin for building timelines"/>
+		<meta name="keywords" content="jQuery timeline, History timeline, Company timeline, Web timeline, timeline script, JQuery Timeline Plugin, Interactive timeline maker, Codecanyon, Themeforest timeline, Codecanyon timeline"/>
+		<meta name="robots" content="index, follow"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,"/>
+
+		<!-- JQuERY -->
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="../css/jquery.timeline.css" type="text/css" media="all">
+
+		<!-- ANALYTICS -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-2361597-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		
+	</head>
+	
+	<!-- BODY -->
+	<body class="dark-demo">
+
+
+		<div id="mytimeline" class="timeline-wrapper dark shadow" style="width: auto; height: 500px; border: 4px solid rgb(242, 242, 246);">
+				
+					
+			<!-- TIMELINE -->
+			<div class="timeline" style="opacity: 1;">
+
+					<!-- VIEWPORT - IMAGES -->
+					<!-- NOTE: BETTER SPLIT IMAGES FOR SITE SPEED, BUT YOU CAN USE JUST ONE FULL IMAGE FOR ALL -->
+					<!-- YOU CAN WRAP IMAGES INSIDE HREFS, FOR OPENING LIGHTBOX, LIKE THE SAMPLE BELOW -->
+					<div class="viewport" style="height: 265px;">
+						<div class="images ui-draggable ui-draggable-handle drag_icon" style="width: 3400px; left: 0px;">
+							<img src="images/CanvasBackground.png" height="265" alt="">
+							
+						</div>
+					</div>
+
+					<!-- SCROLLBAR (VIEW PLUGIN OPTIONS FOR STYLING) -->
+					<div class="scrollbar" style="top: 244px; width: 960px;">
+						<div class="track" style="height: 21px; width: 960px;">
+						
+							<!-- MARKS -->
+							<!-- NOTE: MANUALLY POSITION (PERCENT %) EACH MARK WITH data-xpos ATTRIB -->
+							<div class="marks">
+								<div data-xpos="32%" data-label="MARCH 1946" style="display: block; left: 32%; opacity: 1;" original-title=""></div>
+								<div data-xpos="52%" data-label="1970" style="display: block; left: 52%; opacity: 1;" original-title=""></div>
+								<div data-xpos="70%" data-label="1978 - EAMES" style="display: block; left: 70%; opacity: 1;" original-title=""></div>
+								<div data-xpos="84%" data-label="2001 - JACOBSEN" style="display: block; left: 84%; opacity: 1;" original-title=""></div>
+							</div>
+							
+							<!-- DRAGGER -->
+							<div class="dragger" style="height: 21px; left: 0px; width: 70px;"><img src="images/scrollbar_dragger.png" alt=""></div>
+						</div>
+					</div>
+
+					<!-- MILESTONES -->
+					<div class="milestones" style="height: 215px; border-top: 4px solid rgb(255, 255, 255);">						
+						<div class="content" style="width: 1767px; left: 0px;">
+							
+								
+								<!-- MILESTONE SAMPLE 1 -->
+								<div class="column">
+									<div class="c300">
+										<span class="date">Januar 2017</span>
+										<span class="txthead">DIE IDEE</span>
+										
+										<span class="txt">Michael Schreck und Volker Schneider planen in Hommage an eine Kiezkneipe auf St. Pauli die Neueröffnung einer Szenelokalität in der Altstadt Freiburg.</span>
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 2 -->
+								<div class="column">
+									<div class="c400">
+										<span class="date">Februar-August 2017</span>
+										<span class="txthead">DIE UMSETZUNG</span>
+										<span class="txt">In der Adelhausener Strasse kann die geeignete Location gefunden werden.</span>
+										<span class="thumb"><a href="/extended_text1" data-rel="prettyPhoto" title="readmore"><img src="images/read_more.png" alt="" class="readmore" title="READ MORE" /></a></span>
+										
+										<div id="extended_text1" class="hidden">	<!-- SAMPLE OF HIDDEN DIV WITH EXTENDED CONTENT -->
+											<p><strong>Die neue Location wird RETTUNGSANKER FREIBURG heisen.</strong><br/><br/>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <a href="http://www.themeforest.net" target="_blank" rel="noopener">sample of external link</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fuga asperiores veritatis cum illum consequuntur magnam excepturi! Fugiat, quod ut ex soluta facere voluptatibus officiis facilis sapiente. Voluptatibus, libero itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, maiores delectus perspiciatis non libero odit dolor beatae. <br><br></p>
+										</div>
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 3 -->
+								<div class="column">
+									<div class="c300">
+										<span class="date">März 2017</span>
+										<span class="txt">Die umfangreichen Umbauarbeiten erfolgen unter der Leitung von Ralf Ritzel. Der Innenausbau erfolgt im Sinne eines Nachbaus eines Bootsrumpfes.</span>
+										<span class="date"><br/>Mai2017</span>
+										<span class="txt">Ein Namen für das neue Szenelokal ist gefunden./span>
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 4 -->
+								<div class="column">
+									<div class="c125">
+										<span class="date">Januar 2020 <br/>NEUER CAPTAIN</span>
+										<span class="thumb"><a href="https://vimeo.com/112938835" data-rel="prettyPhoto" class="video_bt" title="Alvar Aalto at Vitra Design Museum"><img src="images/video_sample_thumb.png" alt="" /></a></span>
+										<span class="thumb_description">Alvar Aalto. Vitra Museum</span>
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 5 -->
+								<div class="column">
+									<div class="c150">
+										<span class="date">Januar 2023</span>
+										<span class="txthead">Neues Logo.</span>
+										<span class="txth">Zum Jahresanfang 2013 dürfen wir unser neues Logo vorstellen. </span>
+										<span class="boxed_link default:"><a href="images/gallery_sample_02.jpg" data-rel="prettyPhoto[sample_gallery]" title="Gallery sample 01">> IMAGE GALLERY</a></span>
+										
+										<div class="hidden">	<!-- SAMPLE OF HIDDEN GALLERY ITEMS -->
+											<a href="images/gallery_sample_01.jpg" data-rel="prettyPhoto[sample_gallery]" title="Gallery sample 02"></a>
+											<a href="images/gallery_sample_03.jpg" data-rel="prettyPhoto[sample_gallery]" title="Gallery sample 03"></a>
+										</div>
+										
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 6 -->
+								<div class="column">
+									<div class="c125">
+										<span class="date">1995 - VITRA AWARDS</span>
+										<span class="txt">Sample of external links:</span>
+										<span class="link"><br/><a href="https://themeforest.net/user/pezflash" target="_blank" rel="noopener">www.envato.com</a></span>
+										<span class="link"><a href="https://themeforest.net/user/pezflash" target="_blank" rel="noopener">www.themeforest.net</a></span>
+										<span class="link"><a href="https://themeforest.net/user/pezflash" target="_blank"rel="noopener" >www.codecanyon.net</a></span>
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 7 -->
+								<div class="column">
+									<div class="c225">
+										<span class="date">2010 - WIDE COLUMN SAMPLE</span>
+										<span><img src="images/logos.png" alt="" /></span>
+										<span class="txt">Ut enim ad minim veniam, quis nostrud exercit ullamco. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </span>	
+										<span class="thumb"><a href="#extended_text2" data-rel="prettyPhoto" title="extendedtext"><img src="images/read_more.png" alt="" class="readmore" title="READ MORE" /></a></span>
+										
+										<div id="extended_text2" class="hidden">	<!-- SAMPLE OF HIDDEN DIV WITH EXTENDED CONTENT -->
+											<p><strong>Sample of extended content opened with lightbox</strong><br/><br/>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <a href="http://www.themeforest.net" target="_blank" rel="noopener">sample of external link</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fuga asperiores veritatis cum illum consequuntur magnam excepturi! Fugiat, quod ut ex soluta facere voluptatibus officiis facilis sapiente. Voluptatibus, libero itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, maiores delectus perspiciatis non libero odit dolor beatae. <br><br></p>
+										</div>
+									</div>
+								</div>
+								
+								<!-- MILESTONE SAMPLE 8 -->
+								<div class="column">
+									<div class="c125">
+										<span class="date">2016 - PRESENT</span>
+										<span class="thumb"><a href="images/gallery_sample_01.jpg" data-rel="prettyPhoto" class="image_bt" title="Image description"><img src="images/image_sample_thumb.png" alt="" /></a></span>
+										<span class="thumb_description">Image description</span>
+									</div>
+								</div>
+
+							</div>	<!-- END CONTENT -->
+						</div> <!-- END MILESTONES -->
+
+				
+				</div> <!-- END TIMELINE -->
+			
+			
+			</div> <!-- END TIMELINE WRAPPER -->
+
+
+		<div class="help">
+			<img src="images/help.jpg" alt="" />
+		</div>
+			
+		<div class="help_button">
+			<img src="images/help_bt.png" alt="" />
+		</div>
+		
+		<div class="title">
+			<img src="images/title.png" alt="" />
+		</div>
+
+		<div class="bts">
+			<a href="full.html" class="squared" target="_blank">FULLWIDTH PREVIEW (NO BORDER - NO MUSIC)</a> <br> <a href="light.html" class="squared" target="_blank">LIGHT THEME PREVIEW (NO MUSIC)</a>
+		</div>
+
+
+		<!-- SCRIPTS -->
+		
+		<script type="text/javascript" src="../JS/vendors/vendors.js"></script>
+		<script type="text/javascript" src="../JS/jquery.timeline.js"></script>
+
+		<!-- LOAD PLUGIN ON DOCUMENT READY -->
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+						// START THE TIMELINE
+
+		$("#mytimeline").timelineSlider({
+
+
+
+// SIZING OPTIONS
+
+timelineWidth: 1400,					// TIMELINE GLOBAL WIDTH, value in pixels OR 'auto' (WITH QUOTES) FOR FULLWIDTH
+
+timelineHeight: 500,				// TIMELINE GLOBAL HEIGHT, value in pixels
+
+
+});
+
+				//HELP BUTTON (PREVIEW PURPOSES)
+				var hp = $('.help_button');
+				hp.delay(2000).animate({ opacity:1 }, 0, 'easeOutQuad', function() {
+					hp.show();
+				});
+				hp.find('img').hover(function(){
+					$('.help').stop(true, true).fadeIn(400);;
+				},function(){
+					$('.help').stop(true, true).fadeOut(200);
+				});
+
+
+				// CHATRA
+				ChatraID = 'Bm8EdhdCQxFZeDtmQ';
+			    (function(d, w, c) {
+			        var n = d.getElementsByTagName('script')[0],
+			            s = d.createElement('script');
+			        w[c] = w[c] || function() {
+			            (w[c].q = w[c].q || []).push(arguments);
+			        };
+			        s.async = true;
+			        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+			            + '//call.chatra.io/chatra.js';
+			        n.parentNode.insertBefore(s, n);
+			    })(document, window, 'Chatra');
+
+
+				 
+			});
+
+		</script>
+
+
+	</body>	
+</html>

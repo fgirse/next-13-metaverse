@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
@@ -19,35 +19,254 @@ const World = () => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| People on the World" textStyles="text-center" />
+        <TypingText title="| Dein Treffpunkt in Freiburg" textStyles="text-center" />
         <TitleText
           title={
             <>
-              Track friends around you and invite them to play together in the
-              same world
+              Dein Treffpunkt in Freiburg
             </>
           }
-          textStyles="text-center"
+          textStyles="text-center text-yellow-500"
         />
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
           className="relative mt-[68px] flex w-full h-[550px]"
         >
-          <img
-            src="/map.png"
-            alt="map"
-            className="w-full h-full object-cover"
+          <Image
+            src="/Hero.png"
+            width="2000"
+            height="1200"
+            alt="Illustration Bar"
+            className="hidden lg:block border shadow-xl shad
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            "
+                      />
+           <Image
+            src="/Hero3.png"
+            width="800"
+            height="1200"
+            alt="Illustration Bar"
+            className=" lg:hidden border"
           />
-          <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-            <img src="/people-01.png" alt="people" className="w-full h-full" />
-          </div>
-          <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-            <img src="/people-02.png" alt="people" className="w-full h-full" />
-          </div>
-          <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-            <img src="/people-03.png" alt="people" className="w-full h-full" />
-          </div>
-        </motion.div>
+                </motion.div>
       </motion.div>
     </motion.div>
   </section>
