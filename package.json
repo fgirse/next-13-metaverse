@@ -25,6 +25,7 @@
     "react-simple-tooltip": "^2.6.3"
   },
   "devDependencies": {
+    "@types/react": "^18.0.28",
     "autoprefixer": "^10.4.13",
     "eslint": "8.28.0",
     "postcss": "^8.4.19",
